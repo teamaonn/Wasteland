@@ -1,0 +1,22 @@
+{
+  "entity.wasteland.deathclaw": "Deathclaw",
+  "item.wasteland.deathclaw_spawn_egg": "Deathclaw Spawn Egg",
+  "effect.wasteland.dazed": "Deathclaw Roar",
+  "effect.wasteland.stunned": "Stunned",
+  "entity.wasteland.raider": "Raider",
+  "item.wasteland.raider_spawn_egg": "Raider Spawn Egg",
+  "entity.wasteland.ghoul": "Feral Ghoul",
+  "item.wasteland.ghoul_spawn_egg": "Feral Ghoul Spawn Egg",
+  "entity.wasteland.protectron": "Protectron",
+  "item.wasteland.protectron_spawn_egg": "Protectron Spawn Egg",
+  "entity.wasteland.mothman": "Mothman",
+  "item.wasteland.mothman_spawn_egg": "Mothman Spawn Egg",
+  "subtitles.wasteland.ghoul.ambient": "Ghoul calls",
+  "subtitles.wasteland.ghoul.hurt": "Ghoul hurts",
+  "subtitles.wasteland.ghoul.death": "Ghoul dies",
+  "subtitles.wasteland.mothman.ambient": "Mothman calls",
+  "subtitles.wasteland.mothman.hurt": "Mothman hurts",
+  "subtitles.wasteland.mothman.death": "Mothman dies",
+  "subtitles.wasteland.protectron.ambient": "Protectron calls",
+  "subtitles.wasteland.protectron.hurt": "Protectron hurts"
+}

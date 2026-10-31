@@ -1,0 +1,46 @@
+plugins { id 'net.fabricmc.fabric-loom' version "${loom_version}" }
+version = project.mod_version
+group = 'com.joshua'
+base { archivesName = 'wasteland-encounters-fabric-26.3' }
+repositories {
+    maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+}
+loom {
+    splitEnvironmentSourceSets()
+    mods { wasteland { sourceSet sourceSets.main; sourceSet sourceSets.client } }
+}
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+    implementation 'com.geckolib:geckolib-fabric-26.3:5.5.7'
+}
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand 'version': project.version }
+}
+java { withSourcesJar(); sourceCompatibility = JavaVersion.VERSION_25; targetCompatibility = JavaVersion.VERSION_25 }
+tasks.withType(JavaCompile).configureEach { options.release = 25; options.encoding = 'UTF-8' }
+
+if (providers.gradleProperty('gameTests').getOrElse('false') == 'true') {
+    fabricApi {
+        configureTests {
+            createSourceSet = true
+            modId = 'wasteland-test'
+            enableGameTests = true
+            enableClientGameTests = false
+        }
+    }
+}
+
+// Fail clearly instead of shipping missing third-party creature assets.
+tasks.register('checkCreatureAssets') {
+    doLast {
+        def manifest = new groovy.json.JsonSlurper().parse(file('asset-manifest.json'))
+        def missing = manifest.files.findAll { !file(it.path).isFile() }
+        if (!missing.isEmpty()) {
+            throw new GradleException('Creature assets are local-only. Run: python3 import_assets.py /path/to/wasteland-encounters-fabric-26.3-0.2.3.jar (see README.md). Missing files: ' + missing.size())
+        }
+    }
+}
+tasks.named('processResources') { dependsOn 'checkCreatureAssets' }

@@ -1,0 +1,120 @@
+Wasteland Encounters 0.2.2 — Fabric 26.3
+Raider speed hotfix, 2026-10-23
+
+PASS: pursuit speed multiplier reduced from 1.1 to 0.825 (25% reduction)
+PASS: wandering speed multiplier reduced from 0.8 to 0.6 (25% reduction)
+PASS: decompiled Raider.registerGoals confirms both new multipliers
+PASS: only Raider's two double constants and version metadata changed versus 0.2.1
+PASS: Ghoul class and every other class/asset unchanged versus 0.2.1
+PASS: ZIP integrity and version metadata
+PASS: all eight model/animation/texture resource-binding checks rerun successfully
+
+The change applies to new and reloaded raiders through reconstructed AI goals.
+No graphical gameplay test or full Gradle/GameTest rerun was performed for this hotfix.
+The compiled Raider class was patched at its double constants; matching Java source is included.
+The 0.2.1 animation-ID fix is preserved.
+
+Prior validation follows:
+
+Wasteland Encounters 0.2.1 — Fabric 26.3
+Resource-lookup hotfix, 2026-10-23
+
+PASS: corrected compiled CreatureModel model and animation lookup strings
+PASS: decompilation confirms the corrected methods match the updated Java source
+PASS: ZIP integrity and version metadata
+PASS: all compiled classes except CreatureModel, and all assets, unchanged from 0.2.0
+
+8 resource-binding checks passed:
+- Original Deathclaw model and all required animation clips resolve
+- NukaCraft Deathclaw model and all required animation clips resolve
+- Ghoul model and all required animation clips resolve
+- Protectron model and all required animation clips resolve
+- Mothman model and all required animation clips resolve
+- All 18 Gecko creature appearance textures exist
+- All six raider textures exist
+- Custom model and animation IDs use resource IDs without legacy prefixes/suffixes
+
+Normalization uses the regex constants extracted from the bundled GeckoLib 5.5.7 loader.
+The original compiled JAR was patched at its constant-pool strings only; it was not recompiled.
+Full Gradle/GameTest checks were not rerun for this resource-only hotfix.
+No graphical client test was performed; in-game animation confirmation remains pending.
+
+Previous 0.2.0 validation follows (not rerun for 0.2.1):
+
+Wasteland Encounters 0.2.0 — Fabric 26.3
+Built and tested 2026-10-23
+
+Build: SUCCESS
+Headless Fabric GameTest server: 4 required tests passed (including the Fabric framework test)
+Custom regression checks: 68 passed
+
+PASS: fence obstruction produces a collision-checked leap
+PASS: pursuit AI starts traversal before attacking through a fence
+PASS: leap crosses the fence and lands without changing gravity
+PASS: traversal leaves fencing intact
+PASS: four-block wall uses climbing when a leap cannot clear it
+PASS: climb reaches and stands on the wall top
+PASS: low ceiling prevents an unsafe leap or climb
+PASS: airborne traversal refuses a water crossing
+PASS: new obstruction safely cancels traversal before moving
+PASS: airborne route validation rejects non-habitat biomes
+PASS: ported ghoul model parses in GeckoLib 5
+PASS: all ghoul animation clips bake in GeckoLib 5
+PASS: ported protectron model parses in GeckoLib 5
+PASS: all protectron animation clips bake in GeckoLib 5
+PASS: ported mothman model parses in GeckoLib 5
+PASS: all mothman animation clips bake in GeckoLib 5
+PASS: ported deathclaw_nuka model parses in GeckoLib 5
+PASS: all deathclaw_nuka animation clips bake in GeckoLib 5
+PASS: raiders attack villagers and animals while excluding fellow raiders
+PASS: raiders mostly carry wooden gear or sticks, sometimes wear leather, and use all six skins
+PASS: raider skin and worn equipment survive save/load
+PASS: adult ghouls use baby-zombie movement speed without baby jockeys
+PASS: ghouls carry no weapons and cannot summon ordinary zombie reinforcements
+PASS: ghouls do not turn villagers into ordinary zombie villagers
+PASS: ghoul biome spawn coverage matches zombies in ResourceKey[minecraft:worldgen/biome / minecraft:forest]
+PASS: Mothman spawn pool respects forest habitat in ResourceKey[minecraft:worldgen/biome / minecraft:forest]
+PASS: ghoul biome spawn coverage matches zombies in ResourceKey[minecraft:worldgen/biome / minecraft:desert]
+PASS: Mothman spawn pool respects forest habitat in ResourceKey[minecraft:worldgen/biome / minecraft:desert]
+PASS: ghoul biome spawn coverage matches zombies in ResourceKey[minecraft:worldgen/biome / minecraft:mushroom_fields]
+PASS: Mothman spawn pool respects forest habitat in ResourceKey[minecraft:worldgen/biome / minecraft:mushroom_fields]
+PASS: original and three NukaCraft Deathclaw appearances share the existing entity and retain their appearance on reload
+PASS: Protectrons refuse to appear outside a village
+PASS: Protectrons inherit iron-golem health and target eligibility, including creeper avoidance
+PASS: Protectron melee damages a hostile ghoul
+PASS: GeckoLib 5 accepts the ported model schema
+PASS: GeckoLib 5 bakes all eight animation clips and their expressions
+PASS: registered health is 500 HP
+PASS: swipe does not damage during first four windup ticks
+PASS: fifth-tick swipe deals equal 45 HP to all three forward targets
+PASS: swipe excludes creatures behind it and other Deathclaws
+PASS: swipe excludes targets past four-block reach
+PASS: dodging out of the arc during windup avoids damage
+PASS: roar applies disorientation and a temporary AI lock
+PASS: removing a grabbing Deathclaw restores victim gravity and releases its hold
+PASS: slam deals 35 HP once to the grabbed victim
+PASS: impact deals 15 HP nearby and spares other Deathclaws (splash=85.0, ally=500.0)
+PASS: slam stuns at ground impact and releases the gravity state
+PASS: slam leaves terrain intact
+PASS: boundary test starts inside a real desert biome
+PASS: boundary test locates the adjoining plains
+PASS: movement refuses to cross the desert boundary
+PASS: movement refuses to enter water
+PASS: natural spawn predicate accepts dry desert ground
+PASS: natural spawning accepts ResourceKey[minecraft:worldgen/biome / minecraft:desert]
+PASS: movement accepts ResourceKey[minecraft:worldgen/biome / minecraft:desert]
+PASS: natural spawning accepts ResourceKey[minecraft:worldgen/biome / minecraft:badlands]
+PASS: movement accepts ResourceKey[minecraft:worldgen/biome / minecraft:badlands]
+PASS: natural spawning accepts ResourceKey[minecraft:worldgen/biome / minecraft:eroded_badlands]
+PASS: movement accepts ResourceKey[minecraft:worldgen/biome / minecraft:eroded_badlands]
+PASS: natural spawning accepts ResourceKey[minecraft:worldgen/biome / minecraft:wooded_badlands]
+PASS: movement accepts ResourceKey[minecraft:worldgen/biome / minecraft:wooded_badlands]
+PASS: movement crosses freely from desert into badlands
+PASS: stun expires without leaving its victim locked
+PASS: occupied home POI is recognized as a village
+PASS: village with a resident receives its first Protectron
+PASS: village receives a second Protectron
+PASS: village Protectron population is capped at two nearby defenders
+PASS: village Protectrons persist instead of despawning with distance
+
+Client Java sources compiled. Selected NukaCraft creature assets and alternate Deathclaw animations parse/bake successfully. A graphical gameplay session was not run here; new models, sounds, held gear, and animation alignment need in-game review.

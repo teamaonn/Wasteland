@@ -1,0 +1,12 @@
+.gradle/
+build/
+run/
+out/
+.idea/
+*.iml
+*.class
+*.log
+__pycache__/
+src/main/resources/assets/wasteland/geckolib/
+src/main/resources/assets/wasteland/textures/
+src/main/resources/assets/wasteland/sounds/

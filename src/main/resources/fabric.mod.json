@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "wasteland",
+  "version": "${version}",
+  "name": "Wasteland Encounters",
+  "description": "Wasteland encounters: devastating Deathclaws, roaming raiders, fast feral ghouls, village Protectrons and forest Mothmen.",
+  "authors": [
+    "Joshua"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.joshua.wasteland.WastelandMod"
+    ],
+    "client": [
+      "com.joshua.wasteland.client.WastelandClient"
+    ]
+  },
+  "mixins": [
+    "wasteland.mixins.json",
+    {
+      "config": "wasteland.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.161.0",
+    "geckolib": ">=5.5.7"
+  }
+}

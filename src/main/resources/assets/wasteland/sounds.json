@@ -1,0 +1,129 @@
+{
+  "entity.ghoul.ambient": {
+    "subtitle": "subtitles.wasteland.ghoul.ambient",
+    "sounds": [
+      {
+        "name": "wasteland:entity/ghoul/idle_01"
+      },
+      {
+        "name": "wasteland:entity/ghoul/idle_02"
+      },
+      {
+        "name": "wasteland:entity/ghoul/idle_03"
+      }
+    ]
+  },
+  "entity.ghoul.hurt": {
+    "subtitle": "subtitles.wasteland.ghoul.hurt",
+    "sounds": [
+      {
+        "name": "wasteland:entity/ghoul/hurt_01"
+      },
+      {
+        "name": "wasteland:entity/ghoul/hurt_02"
+      },
+      {
+        "name": "wasteland:entity/ghoul/hurt_03"
+      },
+      {
+        "name": "wasteland:entity/ghoul/hurt_04"
+      },
+      {
+        "name": "wasteland:entity/ghoul/hurt_05"
+      },
+      {
+        "name": "wasteland:entity/ghoul/hurt_06"
+      }
+    ]
+  },
+  "entity.ghoul.death": {
+    "subtitle": "subtitles.wasteland.ghoul.death",
+    "sounds": [
+      {
+        "name": "wasteland:entity/ghoul/death_01"
+      },
+      {
+        "name": "wasteland:entity/ghoul/death_02"
+      },
+      {
+        "name": "wasteland:entity/ghoul/death_03"
+      },
+      {
+        "name": "wasteland:entity/ghoul/death_04"
+      }
+    ]
+  },
+  "entity.mothman.ambient": {
+    "subtitle": "subtitles.wasteland.mothman.ambient",
+    "sounds": [
+      {
+        "name": "wasteland:entity/mothman/idle_01"
+      },
+      {
+        "name": "wasteland:entity/mothman/idle_02"
+      },
+      {
+        "name": "wasteland:entity/mothman/idle_03"
+      }
+    ]
+  },
+  "entity.mothman.hurt": {
+    "subtitle": "subtitles.wasteland.mothman.hurt",
+    "sounds": [
+      {
+        "name": "wasteland:entity/mothman/hurt_01"
+      },
+      {
+        "name": "wasteland:entity/mothman/hurt_02"
+      }
+    ]
+  },
+  "entity.mothman.death": {
+    "subtitle": "subtitles.wasteland.mothman.death",
+    "sounds": [
+      {
+        "name": "wasteland:entity/mothman/death_01"
+      },
+      {
+        "name": "wasteland:entity/mothman/death_02"
+      }
+    ]
+  },
+  "entity.protectron.ambient": {
+    "subtitle": "subtitles.wasteland.protectron.ambient",
+    "sounds": [
+      {
+        "name": "wasteland:entity/protectron/idle_01"
+      },
+      {
+        "name": "wasteland:entity/protectron/idle_02"
+      },
+      {
+        "name": "wasteland:entity/protectron/idle_03"
+      },
+      {
+        "name": "wasteland:entity/protectron/idle_04"
+      },
+      {
+        "name": "wasteland:entity/protectron/idle_05"
+      },
+      {
+        "name": "wasteland:entity/protectron/idle_06"
+      }
+    ]
+  },
+  "entity.protectron.hurt": {
+    "subtitle": "subtitles.wasteland.protectron.hurt",
+    "sounds": [
+      {
+        "name": "wasteland:entity/protectron/hurt_01"
+      },
+      {
+        "name": "wasteland:entity/protectron/hurt_02"
+      },
+      {
+        "name": "wasteland:entity/protectron/hurt_03"
+      }
+    ]
+  }
+}

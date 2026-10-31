@@ -1,0 +1,30 @@
+Model, adult creature texture, and adapted idle/walk/run animations:
+  User-supplied desert_monster_ds-v1.1.0-10.06.2026-neoforge-1.21.1.zip
+  Original display name: DesertMonsterDSAddon
+  Original metadata license: All Rights Reserved
+  Original credits: Created using mod maker MCreator - https://mcreator.net/about
+
+Standalone entity, AI, combat, animation adaptation, and attack clips:
+  Created for Joshua's personal Minecraft 26.3 setup.
+
+Dazed / stunned icons are the existing Minecraft nausea / slowness icons.
+Spawn egg references Minecraft's existing ravager spawn-egg model.
+Sounds and particles reference built-in Minecraft resources.
+
+GeckoLib 5.5.7 dependency: com.geckolib; license MIT.
+Original metadata and license remain in the unmodified GeckoLib dependency JAR.
+
+Selected raider skins, ghoul/Protectron/Mothman models, textures, animations,
+sounds, and alternate Deathclaw model/textures/animations:
+  User-supplied nukacraft-1.21.1-1.19.10-alpha.zip
+  Original display name: Nuka Craft
+  Original authors: Dayton, Jetug, RMI, Almecio, a.a.yes
+  Original metadata license: All rights reserved
+  Only selected creature assets are included. NukaCraft, its gun library,
+  NeoForge, armor systems, weapons, blocks, and other content are not runtime dependencies.
+  Alternate Deathclaw attack aliases and roar/leap/climb clips adapted for this mod.
+
+New creature AI, rendering integration, gear, village population logic,
+and server spawn rules were authored for Joshua's personal setup.
+Raider item/armor rendering uses Minecraft humanoid rendering.
+Additional spawn eggs reference existing Minecraft item models.

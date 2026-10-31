@@ -1,0 +1,396 @@
+{
+  "source_version": "0.2.3",
+  "notice": "Imported third-party creature assets are not licensed by this repository MIT license. See ASSET-ORIGINS.txt.",
+  "files": [
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/animations/entity/deathclaw.animation.json",
+      "jar_path": "assets/wasteland/geckolib/animations/entity/deathclaw.animation.json",
+      "sha256": "119c14845b2c6fda6add3880d6e4a0e2ab26a935f23efb8befff3b9de7d3703b",
+      "size": 104029
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/animations/entity/deathclaw_nuka.animation.json",
+      "jar_path": "assets/wasteland/geckolib/animations/entity/deathclaw_nuka.animation.json",
+      "sha256": "b9f11ba5f3965533cbb608ee0f3bdf1388395f147db6c94a4fdc8be6212aac88",
+      "size": 114418
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/animations/entity/ghoul.animation.json",
+      "jar_path": "assets/wasteland/geckolib/animations/entity/ghoul.animation.json",
+      "sha256": "ddc02e9b9f3207086263f39a632396cb5f4f19c1253757a32612462361495849",
+      "size": 11104
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/animations/entity/mothman.animation.json",
+      "jar_path": "assets/wasteland/geckolib/animations/entity/mothman.animation.json",
+      "sha256": "4047d0e996fda6949404fda3a01db4427aedccc801a1244fb7d0c757f9b83fd5",
+      "size": 114173
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/animations/entity/protectron.animation.json",
+      "jar_path": "assets/wasteland/geckolib/animations/entity/protectron.animation.json",
+      "sha256": "547ffc18c114163c2f403df976e3f70f6c61d163abd5b76dc0b38245a97f6ba7",
+      "size": 24785
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/models/entity/deathclaw.geo.json",
+      "jar_path": "assets/wasteland/geckolib/models/entity/deathclaw.geo.json",
+      "sha256": "e9d4f22952a0a8fc5ffd6111ec7bbb33cd35e7b9f13751ae659b842f5eeaf315",
+      "size": 55686
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/models/entity/deathclaw_nuka.geo.json",
+      "jar_path": "assets/wasteland/geckolib/models/entity/deathclaw_nuka.geo.json",
+      "sha256": "f7eebbb78cd79f75a5bf2aad052c024936daf7ba76da954f1560449765b94dd7",
+      "size": 40377
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/models/entity/ghoul.geo.json",
+      "jar_path": "assets/wasteland/geckolib/models/entity/ghoul.geo.json",
+      "sha256": "b3d5e95bc94a3f7851cc39ddae13fe7ed3179be1cd0de0367c648fcaffe635cb",
+      "size": 3432
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/models/entity/mothman.geo.json",
+      "jar_path": "assets/wasteland/geckolib/models/entity/mothman.geo.json",
+      "sha256": "3a070c9d8ccdb1e81acaf16cf83323c4e235d3d54d6c8a995bfaa9d6595608de",
+      "size": 40657
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/geckolib/models/entity/protectron.geo.json",
+      "jar_path": "assets/wasteland/geckolib/models/entity/protectron.geo.json",
+      "sha256": "9e0c55e91d5a7bcfeda55b7c8db5706a94da61918ff157eac06bc8f89b8cc2dd",
+      "size": 43258
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/death_01.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/death_01.ogg",
+      "sha256": "da1cd45234b391b6992aade91e416320ddb34dd6fd7c33518153dce288614e97",
+      "size": 26261
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/death_02.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/death_02.ogg",
+      "sha256": "78c31365e1db7c192578bdad6c062366acbf50bbf5713a83ffbcb7c9597b790e",
+      "size": 30098
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/death_03.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/death_03.ogg",
+      "sha256": "65e6d9417d6b96a7c5602076966abe55273b9bc5a4e802a149ec3dc21b12a953",
+      "size": 21462
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/death_04.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/death_04.ogg",
+      "sha256": "66ed1fad06256a1bd7533ff5442ae695899c78fa15e941c767fff747d599625b",
+      "size": 22032
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/hurt_01.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/hurt_01.ogg",
+      "sha256": "b88db87a5e7a37c9d603f1637b0146bdfd8726efb3b3ccc6216bee45ef4a888c",
+      "size": 29857
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/hurt_02.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/hurt_02.ogg",
+      "sha256": "9d66f56da1f16c14e0f7d7571401482883700a3e2e54e9e7e2159919ce48f225",
+      "size": 39049
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/hurt_03.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/hurt_03.ogg",
+      "sha256": "69364bcc1d1858b2db3b7ea45fcaf31ee4a74264060df44bc6def9f78a6fcd9d",
+      "size": 26168
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/hurt_04.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/hurt_04.ogg",
+      "sha256": "d5e3212cedfd597801668b44893eaa9e4a3e33165ad37548384d40626e3592f5",
+      "size": 29330
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/hurt_05.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/hurt_05.ogg",
+      "sha256": "1cee18850acd2fa23849c722b9ecf7cbe5adade6c5fffec6fdb6bbc6c83f71ea",
+      "size": 43003
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/hurt_06.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/hurt_06.ogg",
+      "sha256": "5e894ca3838a3d75ae4832993aecc9e2ceba643a193b41db19aa2369ccf700ae",
+      "size": 34195
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/idle_01.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/idle_01.ogg",
+      "sha256": "c8be3a9007e87d3433e394ce5d7846756aeeb2d7bf3f956d1229a119b4e5ad90",
+      "size": 79352
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/idle_02.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/idle_02.ogg",
+      "sha256": "511b350b4ccd44606e371bb812b75338d269faca49f305e2dcb2eb3c9958f901",
+      "size": 66734
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/ghoul/idle_03.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/ghoul/idle_03.ogg",
+      "sha256": "970b2d861ed54d4e67437f01e5dea546c4e1df6aa08b9fc39da57d47bde732e5",
+      "size": 52371
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/mothman/death_01.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/mothman/death_01.ogg",
+      "sha256": "b770cf6305bb63ab0966099ddb40eb45b24769ee33a1cbcbf92941a35f5bb4ce",
+      "size": 361850
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/mothman/death_02.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/mothman/death_02.ogg",
+      "sha256": "52d72e0b7c4df3b69bd7d6c822979b0e03a6ded130f08e659edcd43184d618b6",
+      "size": 162003
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/mothman/hurt_01.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/mothman/hurt_01.ogg",
+      "sha256": "a9bf07da48c34279645f8782448ebd48176639760d73410f0bb0bb698c405ee3",
+      "size": 56210
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/mothman/hurt_02.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/mothman/hurt_02.ogg",
+      "sha256": "8147f28e1ee9e21ad9a559f6cea44c75c324d58a4d7c2e7b5e03637b995a2e37",
+      "size": 64926
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/mothman/idle_01.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/mothman/idle_01.ogg",
+      "sha256": "1fb794819fab4da1c4d4bc1620c2e1231ba8c6709242016b03ee5c47849ae6c3",
+      "size": 21159
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/mothman/idle_02.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/mothman/idle_02.ogg",
+      "sha256": "4ac00e55663f6cba85c026ff0688e52aac71565021915b0ec91ddd670c8ff8be",
+      "size": 25882
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/mothman/idle_03.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/mothman/idle_03.ogg",
+      "sha256": "f1ce7b1b455b6b6ae2c02232df0c694aff6aeaa485f67b928f54d823d1f53db1",
+      "size": 20779
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/hurt_01.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/hurt_01.ogg",
+      "sha256": "ff1c3b1b4e06b4eb7d63b9afc5b0be8fe95b03c0b34c6984615ae6ee28842bfa",
+      "size": 21097
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/hurt_02.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/hurt_02.ogg",
+      "sha256": "75ffebdf63d2c5337656520e5f48fa66433f6939e03e4d0d7ba98aebb3d3ddd8",
+      "size": 12671
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/hurt_03.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/hurt_03.ogg",
+      "sha256": "4c2d014ec9c7c8a5b6301878b0213171eece01541b3dddf70688ba53b62f8a8d",
+      "size": 16700
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/idle_01.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/idle_01.ogg",
+      "sha256": "76033fea2fa8dc78970335f9b4206b45e61924c6c8785ce992364fa031eeb74f",
+      "size": 34597
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/idle_02.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/idle_02.ogg",
+      "sha256": "0bb57dea6189fded0033be036dcd675ad1a0c5eceba3497e01ddebf7d43930e5",
+      "size": 33265
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/idle_03.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/idle_03.ogg",
+      "sha256": "96d9814d7b94fc5314e32964105dc0b6d9246d917db9dc5170915e35c59705a6",
+      "size": 21073
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/idle_04.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/idle_04.ogg",
+      "sha256": "45dbe12db49711d5be043e7b1ef86884de4d408c2668d9fab10f373a8d68459f",
+      "size": 95341
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/idle_05.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/idle_05.ogg",
+      "sha256": "dea0d4068be2952fe05ba90622e1aa4488db01d786b994de6874fe734844e84f",
+      "size": 52126
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/sounds/entity/protectron/idle_06.ogg",
+      "jar_path": "assets/wasteland/sounds/entity/protectron/idle_06.ogg",
+      "sha256": "261efebd17f949fab3765173dea31f341fee9d4552a1b3bc2625aae4050aed52",
+      "size": 64706
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/deathclaw.png",
+      "jar_path": "assets/wasteland/textures/entity/deathclaw.png",
+      "sha256": "3494a17340b5af3311985c6f81608d98e7f4e58075cb03b0dbe8f60bdd4b8fb5",
+      "size": 16336
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/deathclaw_nuka_1.png",
+      "jar_path": "assets/wasteland/textures/entity/deathclaw_nuka_1.png",
+      "sha256": "d7b22baca308313873cb63e4bb4fd9675899c8832c2db5501ea6c2860c249f13",
+      "size": 8653
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/deathclaw_nuka_2.png",
+      "jar_path": "assets/wasteland/textures/entity/deathclaw_nuka_2.png",
+      "sha256": "ef08caf52b21d25db4291f0c1f0d0a86fa4a9a138a682e76664d2f11dd958fb3",
+      "size": 8763
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/deathclaw_nuka_3.png",
+      "jar_path": "assets/wasteland/textures/entity/deathclaw_nuka_3.png",
+      "sha256": "09c6b051b3b6dbb282fdfafec9dd7f41635c5713c660bc21040f1c337e0dca36",
+      "size": 8604
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_0.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_0.png",
+      "sha256": "9a06b5abf7da5723ff01009ae67e598195a2fdc3c675584e24d8e114c3732807",
+      "size": 12336
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_1.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_1.png",
+      "sha256": "5f938deb9b19a62434422b8be8587186a1a5dfacddef6b611f8ad862d78a7cc6",
+      "size": 12195
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_10.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_10.png",
+      "sha256": "06ed7ac52d75161f72770218c1d4b17aabc9e6009dba2251f8f982a7b250f326",
+      "size": 12486
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_11.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_11.png",
+      "sha256": "d4268e14f5cafeec5182d6a1ebc8dd84d946b25a1feb3033c0b12f229b2f20fc",
+      "size": 12846
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_2.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_2.png",
+      "sha256": "badbfc0d53fba978a7e727eb2fec39ff08097fb6015c2f5bfd00f7f8b29b1e1a",
+      "size": 12706
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_3.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_3.png",
+      "sha256": "a7926b75001a24f68f68e443ada9ff14d6e7c415abf4e7d80327a6dc30a7e798",
+      "size": 12004
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_4.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_4.png",
+      "sha256": "83154a804f24e8871747e06e45ae04e360d7c2bac57df9dfd5f8aa63f57c0ec6",
+      "size": 12498
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_5.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_5.png",
+      "sha256": "8d170c47e0973fa674157c058ed4d3717f6fbc071d5f911e5aee7fcf2255e9bb",
+      "size": 12395
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_6.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_6.png",
+      "sha256": "0fc739f804b6505a0929f6e5b47322e62e50d31eca2c2a161f1603a1d59109e9",
+      "size": 12127
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_7.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_7.png",
+      "sha256": "2e3a0a1a977e9102472cb4bd8f1e2cadec02d7534567ec93f5aec8ed68840fe3",
+      "size": 12808
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_8.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_8.png",
+      "sha256": "7b7aa98bbde3f8ecf72eb7ad8a0c1acf009c0ae97852c69fc937cdbd32229e2a",
+      "size": 12865
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/ghoul_9.png",
+      "jar_path": "assets/wasteland/textures/entity/ghoul_9.png",
+      "sha256": "f9a17f20d2361a257c4376c76d6470fa2a2e9d75c66a6789c9727ad376b40760",
+      "size": 12657
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/mothman.png",
+      "jar_path": "assets/wasteland/textures/entity/mothman.png",
+      "sha256": "cf616827cfc4b31768a2fcb62c6430b7c677984e731e9d6d269074e7bc62105a",
+      "size": 7377
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/protectron.png",
+      "jar_path": "assets/wasteland/textures/entity/protectron.png",
+      "sha256": "7f4f46d2d374d5649482dacd637a06dfe79aaf9d5d3f888caaf533f338faacbe",
+      "size": 2535
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/raider_0.png",
+      "jar_path": "assets/wasteland/textures/entity/raider_0.png",
+      "sha256": "fbf1deca4458209e4263d56947ca75e0e98b8ca718ead4c7a58214f81fd2be08",
+      "size": 4049
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/raider_1.png",
+      "jar_path": "assets/wasteland/textures/entity/raider_1.png",
+      "sha256": "f31033f8e1d354d8d609fa0b4c6da70979c163d9fe7be358e4a677d183eeb8a9",
+      "size": 3489
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/raider_2.png",
+      "jar_path": "assets/wasteland/textures/entity/raider_2.png",
+      "sha256": "82d798cb69561af860baf29e6d76137666f2384b6f18b160956652493007aaf3",
+      "size": 12682
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/raider_3.png",
+      "jar_path": "assets/wasteland/textures/entity/raider_3.png",
+      "sha256": "ad6614a594fe8dce29e975555d7dee1489df7793d37298e1393440908266902c",
+      "size": 12738
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/raider_4.png",
+      "jar_path": "assets/wasteland/textures/entity/raider_4.png",
+      "sha256": "7a98c4195d60a901cbfdbc349f1a1d6a30d12f992a6207927cca1c17912c93ee",
+      "size": 13276
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/entity/raider_5.png",
+      "jar_path": "assets/wasteland/textures/entity/raider_5.png",
+      "sha256": "a7fac67d2cdb58e4ef440e23d9f7b0d7e8d6e28fffef862081d08760c757b22d",
+      "size": 12481
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/mob_effect/dazed.png",
+      "jar_path": "assets/wasteland/textures/mob_effect/dazed.png",
+      "sha256": "e046e4d9a0501fa1ea34e6800ffc9e06276b85c95f1d6ea1b136e7235d09162f",
+      "size": 169
+    },
+    {
+      "path": "src/main/resources/assets/wasteland/textures/mob_effect/stunned.png",
+      "jar_path": "assets/wasteland/textures/mob_effect/stunned.png",
+      "sha256": "464cdf67291398c8e98c7e67c56c891ad923f20a51faad07d2a3a99e6ed48e2c",
+      "size": 205
+    }
+  ]
+}
